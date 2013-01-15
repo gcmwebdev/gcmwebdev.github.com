@@ -21,7 +21,7 @@
          counter-increment:section;
       }
       img {
-        max-width:100%;border:1px solid rgb(70,70,70);  
+        max-width:100%;border:1px solid rgb(70,70,70);padding:10px 0;  
       }
       .logo{width:300px;border-width:0; }
       .imagebox{text-align:center;}
@@ -45,7 +45,9 @@ nav li{display: inline-block; margin:0px}
     }
     nav li:hover{background-color:rgba(255,255,255,0.5)}
     @media (max-width:900px) { 
-      .container{width: 700px;}
+      .container{width: 700px;
+      }
+      .img:hover{position:absolute;left:0;width:100%}
      } 
     @media (max-width:700px) {
      .container{width: 500px;}}
