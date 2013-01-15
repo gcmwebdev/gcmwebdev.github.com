@@ -7,8 +7,7 @@
         background: #fff;
         padding: 30px 50px 50px;
         margin: 50px auto;
-        max-width: 1000px;
-        min-width:500px
+        width: 800px;
         font-family: "Titillium Web";
         border-radius: 4px;
       }
@@ -22,7 +21,7 @@
          counter-increment:section;
       }
       img {
-        max-width:100%;border:1px solid rgb(70,70,70);margin:20px 0;  
+        max-width:100%;border:1px solid rgb(70,70,70);padding:10px 0;  
       }
       .logo{width:300px;border-width:0; }
       .imagebox{text-align:center;}
@@ -45,8 +44,9 @@ nav li{display: inline-block; margin:0px}
           
     }
     nav li:hover{background-color:rgba(255,255,255,0.5)}
-    @media (max-width:900px) { 
-      
+    @media (max-width:800px) { 
+      .container{width: 500px;
+      }
       img:hover{position:absolute;left:0;width:100%}
      } 
-   
+    
