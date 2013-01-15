@@ -35,7 +35,7 @@ content:counter(section) "." counter(subsection) " "}
 content:counter(section) "." counter(subsection)"."counter(subsubsection) " "}
 nav li{display: inline-block; margin:0px}
     nav li a{padding:6px 30px 10px ;display:inline-block;text-decoration:none;color:black;}
-    nav ul{mnargin:0;
+    nav ul{margin:0;
           padding:0 6px;
           width:100%;
           height:35px;
