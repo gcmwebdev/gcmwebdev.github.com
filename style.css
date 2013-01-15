@@ -7,7 +7,8 @@
         background: #fff;
         padding: 30px 50px 50px;
         margin: 50px auto;
-        width: 800px;
+        max-width: 1000px;
+        min-width:500px
         font-family: "Titillium Web";
         border-radius: 4px;
       }
@@ -45,9 +46,7 @@ nav li{display: inline-block; margin:0px}
     }
     nav li:hover{background-color:rgba(255,255,255,0.5)}
     @media (max-width:900px) { 
-      .container{width: 700px;
-      }
+      
       img:hover{position:absolute;left:0;width:100%}
      } 
-    @media (max-width:700px) {
-     .container{width: 500px;}}
+   
