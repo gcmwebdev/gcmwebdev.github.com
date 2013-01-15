@@ -23,6 +23,7 @@
       img {
         max-width:100%;border:1px solid rgb(70,70,70);margin:20px 0;  
       }
+      img:hover{margin:200px;position:absolute ;left:0;width:100%}
       .logo{width:300px;border-width:0; }
       .imagebox{text-align:center;}
       li{margin:15px 0;}
@@ -47,6 +48,6 @@ nav li{display: inline-block; margin:0px}
     @media (max-width:800px) { 
       .container{width: 500px;
       }
-      img:hover{position:absolute;left:0;width:100%}
+      img:hover{position:absolute ;left:0;width:100%}
      } 
     
