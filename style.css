@@ -30,6 +30,7 @@
       ol > li{list-style:none;}
       ol> li{text-indent:-28px}
       ol >li>ol>li{text-indent:-39px}
+      ul >li{text-indent:0;}
       .container > ol > li:before{counter-increment:subsection;counter-reset:subsubsection;
 content:counter(section) "." counter(subsection) " "}
 .container > ol > li > ol >li:before{counter-increment:subsubsection;
