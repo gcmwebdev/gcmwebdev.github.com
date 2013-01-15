@@ -49,6 +49,6 @@ nav li{display: inline-block; margin:0px}
       .container{width: 500px;
       }
       img:hover{position:absolute ;left:0;width:100%;border-width:1px 0;}
-      img:hover:after{height:150px;display:block;}
+      
      } 
     
