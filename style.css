@@ -38,7 +38,6 @@ nav li{display: inline-block; margin:0px}
     nav li a{padding:6px 10px 10px ;display:inline-block;text-decoration:none;color:black;}
     nav ul{margin:0 auto;
           padding:0 6px;
-          width:100%;
           height:35px;
           background-color:#DDD6B2;
           border-radius:2px;
